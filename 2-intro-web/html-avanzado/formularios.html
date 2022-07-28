@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/formularios.css">
+  <title>Formularios</title>
+</head>
+<body>
+  <h1>Formularios</h1>
+
+  <form>
+    <div class="campo">
+      <label for="nombre">Nombre</label>
+      <input type="text" placeholder="Juan Torres" name="nombre" id="nombre">
+    </div>
+
+    <div class="campo">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="usuario@dominio.com" required>
+    </div>
+
+    <div class="campo">
+      <label for="password"></label>
+      <input type="password" name="" id="" required>
+    </div>
+
+    <div class="campo">
+      <label for="color">Color</label>
+      <input type="color" name="color" id="color">
+    </div>
+
+    <div class="campo">
+      <label for="number">Number</label>
+      <input type="number" name="number" id="number" min="0" max="10">
+    </div>
+
+    <div class="campo">
+      <label for="range">Rango</label>
+      <input type="range" name="range" id="range" min="0" max="10" >
+    </div>
+
+    <div class="campo">
+      <label for="fecha">Fecha</label>
+      <input type="date" name="fecha" id="fecha">
+    </div>
+
+    <div class="campo">
+      <label for="archivo">Archivo</label>
+      <input type="file" name="archivo" id="archivo">
+    </div>
+
+    <div class="campo">
+      <label for="radio">Radio</label>
+      <input type="radio" name="radio" id="radio" value="opcion1">
+    </div>
+
+    <div class="campo">
+      <label for="checkbox">Checkbox</label>
+      <input type="checkbox" name="checkbox" id="checkbox" value="opcion2">
+    </div>
+
+    <div class="submit">
+      <input type="submit" value="Enviar">
+    </div>
+
+    <div class="reset">
+      <input type="reset" value="Limpiar">
+    </div>
+  </form>
+
+<!--   <h3>Input de rango con marcas (no soportado)</h3>
+  <input type="range" min="0" max="10" step="1" list="tickmarks">
+
+  <datalist id="tickmarks">
+    <option value="0" label="0"></option>
+    <option value="5">
+    <option value="10">
+  </datalist> -->
+
+
+</body>
+</html>

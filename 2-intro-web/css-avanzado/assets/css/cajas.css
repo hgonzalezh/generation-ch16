@@ -1,0 +1,53 @@
+body {
+  height: 3000px;
+  width: 3000px;
+}
+
+.cuadro {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+
+  /* margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 40px; */
+
+  padding: 50px 40px 30px 20px;
+  /*margin: 50px 40px 30px 20px;  SHORTHAND */
+  margin: 20px 40px;
+
+  border: 20px solid black;
+  border-radius: 50px 10px 5px 20px;
+}
+
+.el-1 {
+  background-color: cyan;
+  /*position: fixed;
+  bottom: 0;
+  right: 0;*/
+}
+
+.el-2 {
+  background-color: darkorange;
+  position: sticky;
+  left: 10px;
+  top: 50px;
+}
+
+.el-3 {
+  background-color :firebrick;
+  position: relative;
+  left: 100px;
+  bottom: 200px
+}
+
+.el-4 {
+  background-color:lightgreen;
+  position: static;
+}
+
+.el-5 {
+  background-color: red;
+  position: static;
+}
