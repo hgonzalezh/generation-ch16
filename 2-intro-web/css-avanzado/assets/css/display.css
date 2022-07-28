@@ -1,0 +1,79 @@
+/* body {
+  height: 3000px;
+  width: 3000px;
+} */
+
+.cuadro-padre {
+  background-color: rgb(243, 166, 138);
+  display: flex;
+  height: 600px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cuadro {
+  display: block;
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+
+  /* margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 40px; */
+
+  padding: 50px 40px 30px 20px;
+  /*margin: 50px 40px 30px 20px;  SHORTHAND */
+  margin: 20px 40px;
+
+  border: 20px solid black;
+  border-radius: 50px 10px 5px 20px;
+}
+
+.el-1 {
+  background-color: cyan;
+  align-self: flex-start;
+  flex-grow: 20;
+}
+
+.el-2 {
+  background-color: darkorange;
+  flex-grow: 1;
+}
+
+.el-3 {
+  background-color :firebrick;
+  flex-grow: 1;
+}
+
+.el-4 {
+  background-color:lightgreen;
+  flex-grow: 10;
+}
+
+/* .el-5 {
+  background-color: red;
+  flex-grow: 1;
+} */
+
+
+
+/*------INTRODUCCION A BOOTSTRAP----------*/
+
+.contenedor {
+  height: 200px;
+  background-color: #80cccc;
+
+  max-width: 1500px;
+  margin: 0 auto
+}
+
+.fila {
+  display: flex;
+
+}
+
+.columna {
+  flex-grow: 1;
+}
