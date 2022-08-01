@@ -1,0 +1,15 @@
+.img-carousel {
+  height: calc(100vh - 108px);
+  object-fit: cover;
+}
+
+.img-card {
+  height: 200px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.caja {
+  position: relative;
+  top: -60px;
+}
