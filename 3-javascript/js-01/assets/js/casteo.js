@@ -1,4 +1,4 @@
-'use script';
+'use strict';
 
 // Conversión de datos
 // Casteo (Casting)
