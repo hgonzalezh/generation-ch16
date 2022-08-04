@@ -1,4 +1,5 @@
-'use strict'
+// CASA CANCER
+'use strict';
 
 let celsius = Number(prompt("Por favor, ingresa un valor de temperatura en °C:"));
 
