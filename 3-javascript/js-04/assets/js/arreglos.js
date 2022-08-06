@@ -4,7 +4,6 @@ Arreglos:
 Coleccion de elementos donde cada elementos ocupa una posición.
 Esa posición se conoce como índice y comienza a partir de 0
 */
-
 let arr = [1, 2, 3, 4];
 console.log(arr);
 
@@ -65,4 +64,3 @@ console.log(arreglo);
   let dato3 = arreglo.slice(0, 1);
   console.log(dato3);
   console.log(arreglo);
-
