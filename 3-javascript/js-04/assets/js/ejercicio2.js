@@ -33,3 +33,17 @@ for(let i = 1; i < 6; i++){
   }
   console.log(patron);
 }
+
+// Método for de adorno
+
+for(let u = 0;u == 0; u++) {
+  let patron2 = "";
+
+  for(let v = 0; v < 5; v++){
+    patron2 += "*";
+    console.log(patron2);
+  } 
+
+}
+
+  
