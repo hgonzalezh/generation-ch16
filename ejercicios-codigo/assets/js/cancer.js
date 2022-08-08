@@ -1,4 +1,13 @@
 // CASA CANCER
+
+/* Crea una calculadora para convertir un valor
+ingresado por el usuario a grados Celsius,
+Fahrenheit y Kelvin.
+Considera:
+● Solicitar el valor por medio de un prompt
+● Crear funciones para realizar los cálculos
+● Mostrar los resultados mediante alertas */
+
 'use strict';
 
 let celsius = Number(prompt("Por favor, ingresa un valor de temperatura en °C:"));
