@@ -1,0 +1,21 @@
+#btn-gatito {
+  margin: 10px auto;
+  display: block;
+  background-color: rgb(191, 69, 222);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#btn-gatito:active {
+  background-color: rgb(138, 45, 161);
+}
+
+#img-gatito{
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}

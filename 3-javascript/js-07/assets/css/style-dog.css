@@ -1,0 +1,21 @@
+#btn-perrito {
+  margin: 10px auto;
+  display: block;
+  background-color: rgb(69,69,222);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#btn-perrito:active {
+  background-color: rgb(53, 53, 168);
+}
+
+#img-perrito{
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
