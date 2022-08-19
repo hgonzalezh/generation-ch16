@@ -63,6 +63,9 @@ public class EjemploVariables {
         System.out.println("short valor mínimo: "+ Short.MIN_VALUE);
 
         var miVar = 2;
+
+        float num = 1E+2f;
+        System.out.println(num);
     }
 
 }
