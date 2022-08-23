@@ -29,7 +29,7 @@ public class Colecciones2 {
         System.out.println(miSet.size());
         System.out.println(miSet.contains("Juan"));
 
-        for(String nombre : miset){
+        for(String nombre : miSet){
             System.out.println(nombre);
         }
     }
