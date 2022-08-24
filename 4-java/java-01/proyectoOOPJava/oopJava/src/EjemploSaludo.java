@@ -12,5 +12,11 @@ public class EjemploSaludo {
 
         System.out.println(objSaludo.saludar0());
         System.out.println("Este es otro objeto: ->" + objSaludo0.saludar0());
+
+        objSaludo.textoS = "Hola";
+        System.out.println("objSaludo.textoS: " + objSaludo.textoS);
+
+        objSaludo.a = 4;
+        System.out.println("objSaludo.a: " + objSaludo.a);
     }
 }
