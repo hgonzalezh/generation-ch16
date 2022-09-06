@@ -16,11 +16,13 @@ telefono CHAR(50) NOT NULL,
 direccion VARCHAR(150) NOT NULL
 );
 
+DROP TABLE clientes;
+
 INSERT INTO clientes (nombre, apellido, telefono, direccion)
 VALUES
-('Victor', 'Fernandez', '555540234', 'Comala'),
-('Raúl', 'Sánchez', '559755234', 'Comala'),
-('Juan', 'Cruz', '555553134', 'Comala');
+('Victor', 'Fernandez', '55555555234', 'Comala'),
+('Raúl', 'Sánchez', '55555555234', 'Comala'),
+('Juan', 'Cruz', '55555555234', 'Comala');
 
 SELECT * FROM clientes;
 

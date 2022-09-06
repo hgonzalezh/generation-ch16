@@ -1,5 +1,3 @@
-import javax.sql.rowset.spi.SyncProvider;
-import java.sql.SQLOutput;
 
 public class EjemploVariables {
     public static void main(String[] args) {
