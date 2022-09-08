@@ -64,6 +64,7 @@ public class EjemploVariables {
 
         float num = 1E+2f;
         System.out.println(num);
+        
     }
 
 }
